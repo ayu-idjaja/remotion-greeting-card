@@ -1,0 +1,14 @@
+@-webkit-keyframes glow_thin {
+    from {
+      text-shadow: 0 0 1px #fff, 0 0 2px white, 0 0 3px white, 0 0 4px white, 0 0 5px white, 0 0 6px white, 0 0 7px white;
+    }
+    
+    to {
+      text-shadow: 0 0 2px white, 0 0 3px rgb(255, 255, 255), 0 0 4px rgb(255, 255, 255), 0 0 5px rgb(255, 255, 255), 0 0 6px rgb(255, 255, 255), 0 0 7px rgb(255, 255, 255), 0 0 8px rgb(255, 255, 255);
+    }
+  }
+  
+.outlined {
+    -webkit-text-stroke: 1px white;
+    -webkit-font-smoothing: antialiased;
+}
